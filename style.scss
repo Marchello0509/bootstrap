@@ -8,7 +8,6 @@ $montserrat: 'Montserrat', sans-serif;
 
 .header {
     height: 83px;
-    background: #F5F1F1;
     &_logo {
         @include FlexElement(space-between, center);
         width: 190px;
@@ -47,6 +46,55 @@ $montserrat: 'Montserrat', sans-serif;
         &_img1 {
             width: 25px;
             height: 25px;
+        }
+    }
+}
+.main {
+    height: 500px;
+    margin-top: 17px;
+    &_block1 {
+        width: 237px;
+        height: 463px;
+        &_img1 {
+            width: 213.49px;
+            height: 250px;
+        }
+        &_div {
+            width: 237px;
+            height: 205px;
+            margin-top: 8px;
+            &_block1 {
+                margin-top: 1px;
+                width: 237px;
+                height: 151px;
+                &_pblock {
+                    font-family: $montserrat;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 30px;
+                    color: #000000;
+                }
+            }
+            &_block2 {
+                margin-top: 8px;
+                width: 237px;
+                height: 40px;
+                &_pblock {
+                    font-family: $montserrat;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #000000;
+                }
+            }
+        }
+        &_img2 {
+            height: 100px;
+            margin-top: 85px;
+        }
+        &_div2 {
+            margin-top: 70px;
         }
     }
 }
