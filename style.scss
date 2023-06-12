@@ -1,0 +1,52 @@
+$montserrat: 'Montserrat', sans-serif;
+
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.header {
+    height: 83px;
+    background: #F5F1F1;
+    &_logo {
+        @include FlexElement(space-between, center);
+        width: 190px;
+        height: 44px;
+        margin-top: 13px;
+        &_img {
+            width: 35px;
+            height: 35px; 
+        }
+        &_pimg {
+            font-family: $montserrat;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 37px;
+            color: #000;
+        }
+    }
+    &_nav {
+        @include FlexElement(space-between, center);
+        width: 540px;
+        height: 44px;
+        margin-top: 13px;
+        &_pnav {
+            font-family: $montserrat;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 12px;
+            color: #000000;
+        }
+    }
+    &_btns {
+        @include FlexElement(space-between, center);
+        width: 160px;
+        height: 44px;
+        margin-top: 13px;
+        &_img1 {
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
