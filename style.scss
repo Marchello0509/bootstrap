@@ -36,6 +36,8 @@ $montserrat: 'Montserrat', sans-serif;
             font-size: 10px;
             line-height: 12px;
             color: #000000;
+            cursor: pointer;
+            text-decoration: none;
         }
     }
     &_btns {
@@ -43,6 +45,7 @@ $montserrat: 'Montserrat', sans-serif;
         width: 160px;
         height: 44px;
         margin-top: 13px;
+        cursor: pointer;
         &_img1 {
             width: 25px;
             height: 25px;
@@ -55,6 +58,7 @@ $montserrat: 'Montserrat', sans-serif;
     &_block1 {
         width: 237px;
         height: 463px;
+        cursor: pointer;
         &_img1 {
             width: 213.49px;
             height: 250px;
